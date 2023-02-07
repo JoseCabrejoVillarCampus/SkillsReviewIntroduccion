@@ -5,3 +5,12 @@ son los siguientes:
     *Nombre * Teléfono *Año de ingreso a la empresa
     *Apellidos *Edad."""
 
+
+
+informacion={'nombre':'','apellidos':'','telefono':'','edad':'','añoIngreso':''}
+informacion['nombre']=input("Porfavor ingrese su Nombre: ")
+informacion['apellidos']=input("Porfavor ingrese su Apellido: ")
+informacion['telefono']=input("Porfavor ingrese su Numero Telefono: ")
+informacion['edad']=input("Porfavor ingrese su Edad: ")
+informacion['añoIngreso']=input("Porfavor ingrese su Año de Ingreso: ")
+print(informacion)
